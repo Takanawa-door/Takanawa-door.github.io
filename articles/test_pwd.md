@@ -2,7 +2,7 @@
 
 比赛注意事项：忘了忘了忘了忘了 Energy！
 
-口令：<input id="pwdin" type="password"></input>
+口令：<input id="pwdin" type="password">
 
 <script>
 function showHideMsg()
@@ -14,7 +14,9 @@ function showHideMsg()
   }
 }
 </script>
-<button>提交</button>
+<button onclick="showHideMsg()">提交</button>
+
+<p hidden>隐藏</p>
 
 <div id="hide" style="display: none">
 # 隐藏文本
