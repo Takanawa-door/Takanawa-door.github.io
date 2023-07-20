@@ -7,8 +7,8 @@
 [主页](/index.md)<br>
 [鬼畜大陆](/articles/gcdl.md)<br>
 *[数据删除](/articles/whc.md)<br>*
+[Windows API 汇总](/articles/winapi.md)<br>
 
 # 友情链接
 
-[那个东西](https://www.gdfzoj.com:23380)<br>
 [Note.ms 中心](https://note.ms/oniway)<br>
