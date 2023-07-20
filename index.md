@@ -1,6 +1,6 @@
 # 介绍
 
-本网站基于美丽的 [Github](github.com)，它为我们提供了简便的网站搭建方式！并且支持 Markdown，这是最重要的！！！
+本网站基于美丽的 [Github](https://github.com)，它为我们提供了简便的网站搭建方式！并且支持 Markdown，这是最重要的！！！
 
 # 文章一览
 
