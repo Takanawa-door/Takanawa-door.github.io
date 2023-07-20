@@ -4,14 +4,11 @@
 
 # 文章一览
 
-[主页](index.md)
-
-[鬼畜大陆](articles/gcdl.md)
-
-[发牢骚](articles/dpiloveyou.md)
+[主页](index.md)<br>
+[鬼畜大陆](articles/gcdl.md)<br>
+[发牢骚](articles/dpiloveyou.md)<br>
 
 # 友情链接
 
-[那个东西](www.gdfzoj.com:23380)
-
-[Note.ms 中心](note.ms/oniway)
+[那个东西](www.gdfzoj.com:23380)<br>
+[Note.ms 中心](note.ms/oniway)<br>

@@ -2,3 +2,4 @@ theme: jekyll-theme-modernist
 
 title: 简单文章
 description: 这里收录了一点文章
+show_downloads: false
