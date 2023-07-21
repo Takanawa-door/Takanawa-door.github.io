@@ -1,19 +1,9 @@
-# 管理页面
+[返回页面索引](/)<br>
 
-好吧，不知道你是怎么发现这里的，但是你无法对本网站产生任何更改 :-)
+## 权限列表
 
-## 页面一览
+[二级](/the_second.md)<br>
 
-### 常规页面
+## 独有文档
 
-[常规页面索引](/index.md)<br>
-
-### 测试页面
-
-[密码输入](/articles/test_pwd.md)<br>
-
-## 资源
-
-### 图片
-
-[raiseHand.png](/res/raiseHand.png)<br>
+[密码测试](/articles/test_pwd.md)<br>
