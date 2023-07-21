@@ -2,8 +2,6 @@
 
 上一次提交时间：23 7 21
 
-$ 1\leqn\leq10^5 $
-
 # 文章列表
 
 ## 公开文档
@@ -12,7 +10,7 @@ $ 1\leqn\leq10^5 $
 Sol 1 —— “[不要那个云教室](/articles/sol-1.md)”<br>
 
 **Information 信息文档**<br>
-Kol 1 —— “[]()”<br>
+Inf 1 —— “[关于 J... 的 Markdown 支持](/articles/inf-1.md)”<br>
 
 **Announcement 通知与公告**<br>
 Ann 1 —— “[]()”<br>
