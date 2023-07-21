@@ -8,6 +8,7 @@
 [鬼畜大陆](/articles/gcdl.md)<br>
 *[数据删除](/articles/whc.md)<br>*
 [Windows API 汇总](/articles/winapi.md)<br>
+[名人名言录 一](/articles/historybook.md)<br>
 
 # 友情链接
 
