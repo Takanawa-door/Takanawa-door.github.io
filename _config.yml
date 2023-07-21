@@ -3,3 +3,6 @@ theme: jekyll-theme-modernist
 title: BLOG
 description: 博客
 show_downloads: false
+header_pages:
+  - index.md
+  - articles/whc.md
