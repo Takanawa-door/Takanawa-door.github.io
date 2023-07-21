@@ -1,8 +1,6 @@
 theme: jekyll-theme-modernist
 
-title: BLOG
-description: 博客
+title: 合欢公开数据库
+description: 将数据公开，将信息传播。
 show_downloads: false
-header_pages:
-  - index.md
-  - articles/whc.md
+markdown: kramdown
