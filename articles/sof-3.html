@@ -205,6 +205,87 @@ mark .md-meta { color: rgb(0, 0, 0); }
 mjx-container { break-inside: avoid; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 /* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
 
 @include-when-export url(https://fonts.loli.net/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
@@ -800,12 +881,15 @@ input {
 }
 
 
-</style><title>index</title>
+</style><title>sof-3</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='文章列表'><span>文章列表</span></h1><h2 id='公开文档'><span>公开文档</span></h2><h3 id='空间'><span>空间</span></h3><p><span>Lim 0 —— “</span><a href='/articles/lim-0'><span>无限机房</span></a><sup class='md-footnote'><a href='#dfref-footnote-1' name='ref-footnote-1'>1</a></sup><span>”</span></p><h3 id='事件'><span>事件</span></h3><p><span>Eve 1 —— “</span><a href='/articles/eve-1'><span>关于极域被套上了无法抵御的外挂这件事</span></a><span>”</span></p><h3 id='人物'><span>人物</span></h3><p><span>Per 1 —— </span><em><span>数据空位</span></em></p><h3 id='物品'><span>物品</span></h3><p><span>Obj 1 —— </span><em><span>数据空位</span></em></p><h3 id='实体'><span>实体</span></h3><p><span>Ent 1 —— “</span><a href='/articles/ent-1'><span>极域守护者</span></a><span>”</span></p><h3 id='计算机资源'><span>计算机资源</span></h3><p><span>Sof 1 —— “</span><a href='/articles/sof-1'><span>鬼畜大陆</span></a><span>”</span>
-<span>Sof 2 —— “</span><a href='/articles/sof-2'><span>你们看过升旗的时候憋笑的韦皓程吗？</span></a><span>”</span>
-<span>Sof 3 —— “</span><a href='/articles/sof-3'><span>极域</span></a><span>”</span></p><h3 id='现象'><span>现象</span></h3><p><span>Phe 1 —— </span><em><span>数据空位</span></em></p><h3 id='公告'><span>公告</span></h3><p><span>Ann 1 —— </span><em><span>数据空位</span></em></p><h2 id='即将公开的文档'><span>即将公开的文档</span></h2><p><span>暂无</span></p><div class='footnotes-area'  ><hr/>
-<div class='footnote-line'><span class='md-fn-count'>1</span> <span>Lim 0 也是一个模板文档，但是也被列入的正常文档中。此外，Sof 3 也属于模板文档。</span> <a name='dfref-footnote-1' href='#ref-footnote-1' title='回到文档' class='reversefootnote' >↩</a></div></div></div></div>
+<div id='write'  class=''><p><a href='/'><span>&lt; 文章列表</span></a></p><h1 id='sof-3'><span>Sof 3</span></h1><p><strong><span>综合评定值：有害  控制  病毒</span></strong>
+<span>资源鲁棒性：稳定</span>
+<span>安装与使用：简单</span>
+<span>正反面效果：有害</span>
+<span>特殊的性质：强行控制，难以根除，破解较易</span>
+<span>提供或制造：</span><em><span>你真的想知道吗，知道了有什么用吗？</span></em>
+<span>建议：重置计算机，重新安装系统，远离 </span><strong><span>Sof 3</span></strong><span>。</span></p><h2 id='描述'><span>描述</span></h2><p><strong><span>Sof 3</span></strong><span> 是一款计算机软件，又被称为“极域”“JY”。该计算机软件原本仅适配 Windows 系列操作系统，在 </span><a href='/articles/lim-0'><span>Lim 0</span></a><span> 中的 </span><strong><span>Sof 3</span></strong><span> 被认为是特供版本。根据调查，</span><strong><span>Sof 3</span></strong><span> 是由</span><a href='https://www.mythware.net/#/home'><span>██</span></a><span>研制的。</span></p><p><strong><span>Sof 3</span></strong><span> 用于控制计算机，控制方被称为教师端或控制端，被控制方被称为学生端或受控端。在两端都安装 </span><strong><span>Sof 3</span></strong><span> 才能使其发挥效果。</span><strong><span>Sof 3</span></strong><span> 教师端具有如下功能：强行控制屏幕，断开网络连接，监视受控端屏幕，操作受控端计算机，强制受控端开关机，屏蔽输入设备，屏蔽外部存储介质，重置磁盘，劫持网页等。</span><strong><span>Sof 3</span></strong><span> 受控端须要连接控制端才会被受到控制，但是该连接过程仍未被证实存在，有理论认为，</span><strong><span>Sof 3</span></strong><span> 的控制端和受控端是出现时便绑定的，一个受控端至少有一个控制端，但是因为 </span><a href='/articles/lim-0'><span>Lim 0</span></a><span> 中的计算机无法找到控制台而受到质疑。</span></p><p><strong><span>Sof 3</span></strong><span> 并非万能，依然有办法脱离控制。</span></p><p><strong><span>方法一：使用软件设置屏蔽控制屏幕。</span></strong><span>在 </span><strong><span>Sof 3</span></strong><span> 的安装目录下，找到可执行文件 </span><strong><span>Specialset.exe</span></strong><span>，执行，并在弹出的 UI 中勾选第一个选项框。</span></p><p><strong><span>方法二：开机杀。</span></strong><span>在不会被 </span><strong><span>Sof 3</span></strong><span> 重置的磁盘内，新建文件夹“1”，在其中创建 BAT 文件，名为“1.bat”，写入以下内容，复制“1.bat”，粘贴在同一目录下。重启计算机，在进入桌面（可操作界面）后，立刻执行“1.bat”或它的副本。如果可以连接网络即为成功，否则再次重启，重复上述步骤。</span></p><pre class="md-fences md-end-block md-fences-with-lineno ty-contain-cm modeLoaded" spellcheck="false" lang="bat"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="bat"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 10.3359px; left: 32px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 28px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>4</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: -28px; width: 28px;"></div><div class="CodeMirror-gutter-wrapper CodeMirror-activeline-gutter" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 19px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-operator">:</span><span class="cm-number">1</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 19px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-identifier">taskkill</span> <span class="cm-operator">/</span><span class="cm-identifier">F</span> <span class="cm-operator">/</span><span class="cm-identifier">IM</span> <span class="cm-identifier">studentmain</span><span class="cm-punctuation">.</span><span class="cm-identifier">exe</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 19px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-identifier">taskkill</span> <span class="cm-operator">/</span><span class="cm-identifier">F</span> <span class="cm-operator">/</span><span class="cm-identifier">IM</span> <span class="cm-identifier">student</span><span class="cm-punctuation">.</span><span class="cm-identifier">exe</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -28px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt CodeMirror-linenumber-show" style="left: 0px; width: 19px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-identifier">goto</span> <span class="cm-operator">:</span><span class="cm-number">1</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 99px;"></div><div class="CodeMirror-gutters" style="height: 99px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 27px;"></div></div></div></div></pre><p><span>但是请注意，如果你附近存在 </span><a href='/articles/ent-1'><span>Ent 1</span></a><span>，请不要尝试以上方法，待到其远离才可。</span></p><h2 id='行为准则'><span>行为准则</span></h2><p><strong><span>应当：</span></strong></p><p><span>对 </span><strong><span>Sof 3</span></strong><span> 保持警惕，如果发现计算机上出现 </span><strong><span>Sof 3</span></strong><span>，请立刻卸载，如果无法卸载，请根据情况判断是否使用描述中提到的方法暂时杀掉 </span><strong><span>Sof 3</span></strong><span>。</span></p><p><strong><span>不应：</span></strong></p><p><span>对 </span><strong><span>Sof 3</span></strong><span> 保持友好态度，主动安装 </span><strong><span>Sof 3</span></strong><span>，对计算机中的 </span><strong><span>Sof 3</span></strong><span> 视若无睹，在附近存在 </span><a href='/articles/ent-1'><span>Ent-1</span></a><span> 时使用描述中提到的方法。</span></p></div></div>
 </body>
 </html>
