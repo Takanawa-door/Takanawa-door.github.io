@@ -1,4 +1,4 @@
-<iframe src="/head/archived.html" height="1em"></iframe>
+<iframe src="/head/archived.html"></iframe>
 
 # 404 出错
 
