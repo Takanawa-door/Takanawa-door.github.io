@@ -27,7 +27,7 @@ Ent 2 —— “羊驼”
 ### 计算机资源
 
 Sof 1 —— “[鬼畜大陆](/articles/sof-1)”
-Sof 2 —— “[你们看过升旗的时候憋笑的韦皓程吗？](/articles/sof-2)”<font color="red">（原文重写中）</font>
+Sof 2 —— “[ChatGQT](/articles/sof-2)”
 Sof 3 —— “[极域](/articles/sof-3)”
 
 ### 现象
