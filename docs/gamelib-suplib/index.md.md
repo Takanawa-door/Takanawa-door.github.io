@@ -1,8 +1,7 @@
-**标签：**文档 | 导航
-
 ---
-
-**GameLib 文档 · 目录**
+titie: GameLib 文档
+---
+**标签：**文档 | 导航
 
 ---
 
@@ -71,11 +70,11 @@ int main()
 
 运行效果如图所示：
 
-![](./.pic/index-1.png)
+![](./pic/index-1.png)
 
 # 【目录】索引
 
-**入门**
-	[开始使用 GameLib](.)
-**选择器——selector**
-	[GameLib::selector](./selector)
+**入门**<br>
+	[开始使用 GameLib](.)<br>
+**选择器——selector**<br>
+	[GameLib::selector](./selector)<br>
