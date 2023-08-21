@@ -37,7 +37,7 @@ title: 好听的音乐
 
 ## 温馨治愈
 
-《==儿童金曲==mopemope》：<br>
+《~~儿童金曲~~ mopemope》：<br>
 暂无
 
 《Always with me》<br>
