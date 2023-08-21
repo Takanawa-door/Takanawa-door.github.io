@@ -14,7 +14,7 @@ body {
   line-height: 1.7;
   padding: 1em;
   margin: auto;
-  max-width: 100%;
+  max-width: 50%;
   background: #fefefe;
 }
 
@@ -322,10 +322,6 @@ table td {
   h2, h3 {
     page-break-after: avoid;
   }
-}
-
-.math {
-  /* font-family: "Cambria", "Cambria Math", 华文中宋; */
 }
 
 /* Also, toc */
