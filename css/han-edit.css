@@ -272,6 +272,7 @@ a:hover {
 
 #write a:hover::before {
   content: "> ";
+  font-family: Consolas;
 }
 
 /* 默认不显示下划线，保持页面简洁 */

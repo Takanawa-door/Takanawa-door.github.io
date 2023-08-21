@@ -1,7 +1,5 @@
 本页面列出了所有可用的软件。要查看正在编写的软件，请参阅[此处](./future)；要查看支持库，请参阅[此处](/support-libs)。
 
-{:toc}
-
 # 鬼畜大陆冒险记
 
 **信息：**
@@ -79,8 +77,8 @@
 ## 下载
 
 **源代码：**
-》本程序源代码依托[剧情游戏支持库](/support-libs)运行，构建时注意链接。
-Alpha 0.1：[本站](/downloads/bkrep-src-a0_1.zip)。
+》本程序源代码依托[剧情游戏支持库](/support-libs#剧情游戏支持库)运行，构建时注意链接。
+Alpha 0.1：[本站](/downloads/bkrep-src-a0_1.zip)；剧情游戏支持库版本：V1.0。
 
 **官方发行版：**
 Alpha 0.1：[MS-Windows 64 位](/downloads/bkrep-win64-a0_1.exe)。
@@ -88,3 +86,21 @@ Alpha 0.1：[MS-Windows 64 位](/downloads/bkrep-win64-a0_1.exe)。
 ## 更新日志
 
 暂无。
+
+# 【归档 | 已停止支持】ChatGQT
+
+**备注：**本页面信息已过时，处于归档目的而保留。
+
+**信息：**
+语言：English
+语言：C++11
+界面：控制台（终端）
+支持平台：MS-Windows
+恶意代码：无
+
+ChatGQT 是一代复读机，已停止支持。
+
+## 下载
+
+**源代码：**
+[本站](/downloads/chatgqt-src.cc)。
