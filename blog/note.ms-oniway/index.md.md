@@ -1,67 +1,68 @@
-**备注：**本页面是对 [note.ms/oniway](https://note.ms/oniway) 的备份，备份时间：2023/8/19。
-**标签：**备份 | 格式已修正
+**备注：**本页面是对 [note.ms/oniway](https://note.ms/oniway) 的备份，备份时间：2023/8/19。<br>
+**标签：**备份 | 格式已修正<br>
 
-快乐导航笔记
-𝒏𝒐𝒕𝒆.𝒎𝒔/𝒐𝒏𝒊𝒘𝒂𝒚
+快乐导航笔记<br>
+𝒏𝒐𝒕𝒆.𝒎𝒔/𝒐𝒏𝒊𝒘𝒂𝒚<br>
 
 	【征稿已截止，示例文章可在 note.ms/huangfenchong 中查看（备份已有）】
 
-note.ms/daofaxinwen
-———— 什么是 Oniway ————
+note.ms/daofaxinwen<br>
+———— 什么是 Oniway ————<br>
 Oniway 是居住在拆那的~~神秘~~物种，据说，Oniway 和 Away 具有互相吸引的现象，此现象被称为“AO互引现象”。
 
 据了解，Oniway 被发现于拆那窄西省，外表近似（其实就是）人类，并且可以使用汉语交流，但也说着九年义务教育未完成的英语（successful!!!!）。
 
 Oniway 在游荡时可能会说出无意义、无厘头的话语，包括但不限于：
-· 囸
-· 操
-……
+
+- 囸
+- 操
+- ……
 
 在遇到其他人类，且附近出现足够数量的尺或笔时（尺或笔的数量大于等于包含 Oniway 在内的人数），Oniway 可能主动邀请人类与之进行“斗尺”或“斗笔”这两种其一的社交活动。其规则简单，即通过滑动、推动等操作将其他人的尺子推出游戏场外取得胜利。在游戏时，Oniway 说“囸”的可能性会加大。
 
-—— 拥有更好的阅读体验 ——
-接下来撰写的网页中，将会有越来越多的网页基于 Html 编写，因此，我们决定统一使用一个 CSS 样式文件和 JavaScript 文件，请按照对应要求将它们保存到同一文件夹：
-用途		应该被保存为的名称	链接						功能
-CSS		style.css				note.ms/oniwayCSS		提供 CSS 样式，包括了常用样式还有后室 SD 低质量复刻样式。
-Ja~Script	js.js					note.ms/oniwayJS			提供脚本内容，包括常用函数。
-总之你保存就是了！
-你可以使用这个 Html 文件验证你是否正确保存了上述文件：note.ms/oooniway
-如果你发现网页显示错误，一定是你的 CSS 文件不够新。如果发现无法与页面互动，更新你的 JS 文件。
+—— 拥有更好的阅读体验 ——<br>
+接下来撰写的网页中，将会有越来越多的网页基于 Html 编写，因此，我们决定统一使用一个 CSS 样式文件和 JavaScript 文件，请按照对应要求将它们保存到同一文件夹：<br>
+用途		应该被保存为的名称	链接						功能<br>
+CSS		style.css				note.ms/oniwayCSS		提供 CSS 样式，包括了常用样式还有后室 SD 低质量复刻样式。<br>
+Ja~Script	js.js					note.ms/oniwayJS			提供脚本内容，包括常用函数。<br>
+总之你保存就是了！<br>
+你可以使用这个 Html 文件验证你是否正确保存了上述文件：note.ms/oooniway<br>
+如果你发现网页显示错误，一定是你的 CSS 文件不够新。如果发现无法与页面互动，更新你的 JS 文件。<br>
 
-———— 友情链接 ————
-太君的鬼畜大陆												note.ms/gcdl 与 note.ms/gcdld
-美丽的网站（但是不建议进入）									note.ms/iomaocn
-Backrooms 后室维基（Wikidot）									http://backrooms-wiki-cn.wikidot.com
-本地化 Backrooms 后室维基（W 版）								note.ms/BackroomsInNoteMs
-你可能需要的文字模板											note.ms/textTemplates
-没有任何用的网页												note.ms/notBackrooms
-电子文字图书馆（维护中）										note.ms/onlineTextLibrary11
-摆渡人（小羊驼出现）											note.ms/baiduren
-ChatGPT 大作													note.ms/huangfenchong
-ChatGQT C++ 内测版本											note.ms/chatGQT
-一定不要点开这四个网址！！！									（关于 oniway 的信息不需要【监督者权限】访问，请不要验证……） note.ms/【数据删除】
-后室探索														note.ms/backroomsExploreGame
-<font color="white">oimao 题目参考												note.ms/oimaoAnswers</font>
+———— 友情链接 ————<br>
+太君的鬼畜大陆												note.ms/gcdl 与 note.ms/gcdld<br>
+美丽的网站（但是不建议进入）									note.ms/iomaocn<br>
+Backrooms 后室维基（Wikidot）									http://backrooms-wiki-cn.wikidot.com<br>
+本地化 Backrooms 后室维基（W 版）								note.ms/BackroomsInNoteMs<br>
+你可能需要的文字模板											note.ms/textTemplates<br>
+没有任何用的网页												note.ms/notBackrooms<br>
+电子文字图书馆（维护中）										note.ms/onlineTextLibrary11<br>
+摆渡人（小羊驼出现）											note.ms/baiduren<br>
+ChatGPT 大作													note.ms/huangfenchong<br>
+ChatGQT C++ 内测版本											note.ms/chatGQT<br>
+一定不要点开这四个网址！！！									（关于 oniway 的信息不需要【监督者权限】访问，请不要验证……） <br>note.ms/【数据删除】<br>
+后室探索														note.ms/backroomsExploreGame<br>
+<font color="white">oimao 题目参考												note.ms/oimaoAnswers</font><br>
 
-———— **（已归档页面）**字体 ————	
-最新消息：关于更纱黑体系列字体的适配已停止，因为我们发现了制表符很好用，因此此段信息可忽略。
+———— **（已归档页面）**字体 ————	<br>
+最新消息：关于更纱黑体系列字体的适配已停止，因为我们发现了制表符很好用，因此此段信息可忽略。<br>
 
-如果觉得默认字体太丑了，请下载更纱黑体，然后使用油猴脚本插件，添加脚本。
-更纱黑体下载地址：github.com/laishulu/Sarasa-Mono-SC-Nerd
-脚本内容：note.ms/NoteMSFontChanger
-Github 有时候会访问不上，你可以使用#或者刷新再试，或者使用镜像源。
-当然，我非常建议你使用这一个字体，毕竟挺好看的，统一一点也不会出现显示错误。
+如果觉得默认字体太丑了，请下载更纱黑体，然后使用油猴脚本插件，添加脚本。<br>
+更纱黑体下载地址：github.com/laishulu/Sarasa-Mono-SC-Nerd<br>
+脚本内容：note.ms/NoteMSFontChanger<br>
+Github 有时候会访问不上，你可以使用#或者刷新再试，或者使用镜像源。<br>
+当然，我非常建议你使用这一个字体，毕竟挺好看的，统一一点也不会出现显示错误。<br>
 
-如果你看到下面的字符是整齐的一个框，里面有文字，说明你的字体与脚本都是正确的：
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃如果你看到框内的文字不整齐┃
-┃请按上述要求安装字体！　　┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-由于我学会了怎么用制表符，所以不用太过于担心了！（？）
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃114514，										 ┃
-┃制表符万岁。			　　						 ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+如果你看到下面的字符是整齐的一个框，里面有文字，说明你的字体与脚本都是正确的：<br>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓<br>
+┃如果你看到框内的文字不整齐┃<br>
+┃请按上述要求安装字体！　　┃<br>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛<br>
+由于我学会了怎么用制表符，所以不用太过于担心了！（？）<br>
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━┓<br>
+┃114514，										 ┃<br>
+┃制表符万岁。			　　						 ┃<br>
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━┛<br>
 
-———— 守则 ————
-请不要恶意刷屏，不要删除内容，否则你会遭到正义制裁 :)
+———— 守则 ————<br>
+请不要恶意刷屏，不要删除内容，否则你会遭到正义制裁 :)<br>
