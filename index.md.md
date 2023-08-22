@@ -15,14 +15,3 @@ title: 导航页
 [好听的音乐](./sounds)
 
 [文档](./docs)
-
----
-
-**实验功能**
-
-<details>
-<summary>实验功能？</summary>
-
-**只是测试 Pandoc 的 Html 嵌套 Markdown 而已**
-
-</details>
