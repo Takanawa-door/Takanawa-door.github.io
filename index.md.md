@@ -12,6 +12,8 @@ title: 导航页
 
 [软件页面](./sofwares)
 
+[支持库页面](./support-libs)
+
 [好听的音乐](./sounds)
 
 [文档](./docs)
