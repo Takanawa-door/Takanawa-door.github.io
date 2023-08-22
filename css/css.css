@@ -1,5 +1,76 @@
 @charset "utf-8";
 
+/* 引入字体包 */
+/* 思源黑 */
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Bold.otf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-ExtraLight.otf");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Heavy.otf");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Light.otf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Normal.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Han Sans";
+    src: url("/font/source-han-sans/SourceHanSansSC-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Hack */
+@font-face {
+    font-family: 'Hack Nerd Font';
+    src: url("/font/hack-nd/HackNerdFont-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Hack Nerd Font';
+    src: url("/font/hack-nd/HackNerdFont-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hack Nerd Font';
+    src: url("/font/hack-nd/italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Hack Nerd Font';
+    src: url("/font/hack-nd/HackNerdFont-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     font-size: 100%;
     overflow-y: scroll;
@@ -9,7 +80,7 @@ html {
 
 body {
     color: #000;
-    font-family: Georgia, Palatino, 'Palatino Linotype', Times,
+    font-family: 'Source Han Sans', Georgia, Palatino, 'Palatino Linotype', Times,
         'Times New Roman', 华文中宋, serif;
     font-size: 12px;
     line-height: 1.7;
@@ -73,8 +144,7 @@ h6 {
     color: #111;
     line-height: 125%;
     margin-top: 2em;
-    font-weight: normal;
-    font-family: "Times New Roman", 华文中宋;
+    font-weight: 500;
 }
 
 h4,
@@ -132,8 +202,7 @@ code,
 kbd,
 samp {
     color: #000;
-    font-family: 'Hack Nerd Font', consolas, 'Sarasa Fixed SC', 黑体, monospace;
-    _font-family: 'courier new', monospace;
+    font-family: 'Hack Nerd Font', consolas, 'Sarasa Fixed SC', 'Source Han Sans', 黑体, monospace;
     font-size: 0.98em;
     /* background-color: #f6f8fa; */
 }
