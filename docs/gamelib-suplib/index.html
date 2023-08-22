@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>index.md</title>
+  <title>GameLib 文档</title>
   <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,70 +20,6 @@ margin: 0 0.8em 0.2em -1.6em;
 vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-{ counter-reset: source-line 0; }
-pre.numberSource code > span
-{ position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-{ content: counter(source-line);
-position: relative; left: -1em; text-align: right; vertical-align: baseline;
-border: none; display: inline-block;
--webkit-touch-callout: none; -webkit-user-select: none;
--khtml-user-select: none; -moz-user-select: none;
--ms-user-select: none; user-select: none;
-padding: 0 4px; width: 4em;
-color: #aaaaaa;
-}
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
-div.sourceCode
-{ }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } 
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.at { color: #7d9029; } 
-code span.bn { color: #40a070; } 
-code span.bu { color: #008000; } 
-code span.cf { color: #007020; font-weight: bold; } 
-code span.ch { color: #4070a0; } 
-code span.cn { color: #880000; } 
-code span.co { color: #60a0b0; font-style: italic; } 
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.do { color: #ba2121; font-style: italic; } 
-code span.dt { color: #902000; } 
-code span.dv { color: #40a070; } 
-code span.er { color: #ff0000; font-weight: bold; } 
-code span.ex { } 
-code span.fl { color: #40a070; } 
-code span.fu { color: #06287e; } 
-code span.im { color: #008000; font-weight: bold; } 
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
-code span.kw { color: #007020; font-weight: bold; } 
-code span.op { color: #666666; } 
-code span.ot { color: #007020; } 
-code span.pp { color: #bc7a00; } 
-code span.sc { color: #4070a0; } 
-code span.ss { color: #bb6688; } 
-code span.st { color: #4070a0; } 
-code span.va { color: #19177c; } 
-code span.vs { color: #4070a0; } 
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
   <link rel="stylesheet" href="/css/css.css" />
   <!--[if lt IE 9]>
@@ -91,73 +27,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
   <![endif]-->
 </head>
 <body>
+<header id="title-block-header">
+<h1 class="title">GameLib 文档</h1>
+</header>
 <nav id="TOC" role="doc-toc">
 <ul>
-<li><a href="#入门在-cmake-下配置并使用-gamelib" id="toc-入门在-cmake-下配置并使用-gamelib">【入门】在 CMake 下配置并使用
-GameLib</a></li>
 <li><a href="#目录索引" id="toc-目录索引">【目录】索引</a></li>
 </ul>
 </nav>
 <p><strong>标签：</strong>文档 | 导航 | GameLib<br>
 <strong>使用版本：</strong>GameLib Version 1.0</p>
-<hr />
-<h1 id="入门在-cmake-下配置并使用-gamelib">【入门】在 CMake 下配置并使用
-GameLib</h1>
-<p>克隆仓库到一个文件夹内，此处文件夹以 <code>%GameLib%</code>
-为称呼，并进入仓库，新建文件夹 build，使用如下命令构建<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cmake</span> .. <span class="at">-DCMAKE_BUILD_TYPE</span><span class="op">=</span>Release <span class="co"># 此处 Release 也可以改为 Debug，具体看项目</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">make</span> <span class="co"># 或者 mingw32-make</span></span></code></pre></div>
-<p>构建完后，会在 <code>build\gamelib</code> 产生文件
-<code>libgamelib.a</code>。</p>
-<p>新建一个 CMake 项目，结构如下所示：</p>
-<pre><code>.
-| [D] build
-| src
-| | main.cc
-| CMakeLists.txt</code></pre>
-<p>其中，CMakeLists.txt 内容如下所示：</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode cmake"><code class="sourceCode cmake"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">cmake_minimum_required</span> (<span class="ot">VERSION</span> <span class="dt">3.20</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="kw">project</span> (project)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 添加头文件搜索目录</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="kw">include_directories</span> (%GameLib%/gamelib/include)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 添加静态库文件搜索目录</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">link_directories</span> (%GameLib%/build/gamelib)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="kw">add_executable</span> (<span class="bn">project</span> ./src/main.cc)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># 添加链接选项</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="kw">target_link_libraries</span> (<span class="bn">project</span> gamelib)</span></code></pre></div>
-<p>然后在 <code>build</code> 文件夹下执行 <code>cmake ..</code>
-即可。</p>
-<p>在 <code>src\main.cc</code> 中编辑：</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 本文件将会使用 GameLib::selector 来获取用户输入选项。 </span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;iostream&gt;</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;gamelib/selector.hxx&gt;</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">// 设置 Windows 相关结构</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>HANDLE hOut <span class="op">=</span> GetStdHandle<span class="op">(</span>STD_OUTPUT_HANDLE<span class="op">);</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>CONSOLE_SCREEN_BUFFER_INFOEX csbi<span class="op">;</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>CONSOLE_CURSOR_INFO cci<span class="op">;</span></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="dt">int</span> main<span class="op">()</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="op">{</span></span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    csbi<span class="op">.</span>cbSize <span class="op">=</span> <span class="kw">sizeof</span> csbi<span class="op">;</span> <span class="co">// 必要，初始化 csbi 用</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>    <span class="bu">std::</span>cout <span class="op">&lt;&lt;</span> <span class="st">&quot;选择你的英雄</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">;</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">auto</span> getOpt <span class="op">=</span> GameLib<span class="op">::</span>selector<span class="op">({</span> <span class="st">&quot;Minecraft&quot;</span><span class="op">,</span> <span class="st">&quot;泰拉瑞亚&quot;</span><span class="op">,</span></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;Phigros&quot;</span> <span class="op">},</span> hOut<span class="op">,</span> csbi<span class="op">,</span> cci<span class="op">);</span></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span><span class="op">;</span></span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
-<p>运行效果如图所示：</p>
-<p><img src="./pic/index-1.png" /></p>
 <h1 id="目录索引">【目录】索引</h1>
-<p><strong>入门</strong><br> <a href=".">开始使用 GameLib</a><br>
-<strong>选择器——selector</strong><br> <a href="./selector">GameLib::selector</a><br></p>
-<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr />
-<ol>
-<li id="fn1"><p>对于 MinGW 用户，在调用 <code>cmake</code> 时加上
-<code>-G &quot;MinGW Makefiles&quot;</code>。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</aside>
+<p><strong>入门</strong><br> <a href="./start">开始使用 GameLib</a><br>
+<strong>选择器——selector</strong><br> <a href="./selector">GameLib::selector(…)</a><br>
+<strong>文本移动</strong><br> <a href="./movetext">GameLib::moveText(…)</a><br> <a href="./clearscreen">GameLib::clearScreen(…)</a><br></p>
 </body>
 </html>

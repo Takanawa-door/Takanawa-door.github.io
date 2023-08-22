@@ -50,7 +50,7 @@ Music bad(path, name);
 
 Music 类结构如下：
 
-```cpp
+```
 函数
   见下
 成员

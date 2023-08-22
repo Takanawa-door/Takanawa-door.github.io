@@ -108,19 +108,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <div class="sourceCode" id="cb1"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="at">const</span> <span class="dt">size_t</span> GameLib<span class="op">::</span>selector<span class="op">(</span><span class="at">const</span> <span class="bu">std::</span>vector<span class="op">&lt;</span><span class="bu">std::</span>string<span class="op">&gt;&amp;</span> options<span class="op">,</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>        HANDLE hOut<span class="op">,</span> CONSOLE_SCREEN_BUFFER_INFOEX<span class="op">&amp;</span> csbi<span class="op">,</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        CONSOLE_CURSOR_INFO<span class="op">&amp;</span> cci<span class="op">,</span> <span class="at">const</span> <span class="bu">std::</span>string<span class="op">&amp;</span> split <span class="op">=</span> <span class="st">&quot;</span><span class="sc">\n</span><span class="st">&quot;</span><span class="op">)</span> <span class="kw">noexcept</span><span class="op">;</span></span></code></pre></div>
-<ul class="task-list">
-<li><label><input type="checkbox" checked></input>Vim 按键支持</label></li>
-</ul>
 <p>该函数提供了向用户交互的选项框，类似于列表，用户通过 h、j、k、l
-键来选择选项， 通过回车来选定。默认选中项永远是
+键来选择选项，通过回车来选定。默认选中项永远是
 <code>options[0]</code>。</p>
 <h1 id="参数">参数</h1>
 <p><strong>options</strong> 指定用户可以选择的项目。</p>
 <p><strong>hOut</strong> 指向当前活动缓冲区的句柄，通常是
-<code>GetStdHandle(STD_OUTPUT_HANDLE)</code> 的 值。</p>
+<code>GetStdHandle(STD_OUTPUT_HANDLE)</code> 的值。</p>
 <p><strong>csbi</strong> 一个 <code>CONSOLE_SCREEN_BUFFER_INFOEX</code>
-对象，在调用本函数前应当初始化：
-<code>csbi.cbSize = sizeof csbi</code>。</p>
+对象，在调用本函数前应当初始化：<code>csbi.cbSize = sizeof csbi</code>。</p>
 <p><strong>cci</strong> 一个 <code>CONSOLE_CURSOR_INFO</code>
 对象，用于记录光标信息。</p>
 <p><strong>split</strong> 指定每一个选项之间分割的字符，推荐的选项有

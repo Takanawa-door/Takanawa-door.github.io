@@ -9,7 +9,8 @@ html {
 
 body {
   color: #000;
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', 华文宋体, serif;
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times,
+               'Times New Roman', 华文中宋, serif;
   font-size: 12px;
   line-height: 1.7;
   padding: 1em;
@@ -120,7 +121,7 @@ hr {
 
 pre, code, kbd, samp {
   color: #000;
-  font-family: consolas, 黑体, monospace;
+  font-family: 'Hack Nerd Font', consolas, 'Sarasa Fixed SC', 黑体, monospace;
   _font-family: 'courier new', monospace;
   font-size: 0.98em;
 }

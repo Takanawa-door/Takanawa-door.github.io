@@ -16,20 +16,15 @@ const size_t GameLib::selector(const std::vector<std::string>& options,
         CONSOLE_CURSOR_INFO& cci, const std::string& split = "\n") noexcept;
 ```
 
-- [x] Vim 按键支持
-
-该函数提供了向用户交互的选项框，类似于列表，用户通过 h、j、k、l 键来选择选项，
-通过回车来选定。默认选中项永远是 `options[0]`。
+该函数提供了向用户交互的选项框，类似于列表，用户通过 h、j、k、l 键来选择选项，通过回车来选定。默认选中项永远是 `options[0]`。
 
 # 参数
 
 **options** 指定用户可以选择的项目。
 
-**hOut** 指向当前活动缓冲区的句柄，通常是 `GetStdHandle(STD_OUTPUT_HANDLE)` 的
-值。
+**hOut** 指向当前活动缓冲区的句柄，通常是 `GetStdHandle(STD_OUTPUT_HANDLE)` 的值。
 
-**csbi** 一个 `CONSOLE_SCREEN_BUFFER_INFOEX` 对象，在调用本函数前应当初始化：
-`csbi.cbSize = sizeof csbi`。
+**csbi** 一个 `CONSOLE_SCREEN_BUFFER_INFOEX` 对象，在调用本函数前应当初始化：`csbi.cbSize = sizeof csbi`。
 
 **cci** 一个 `CONSOLE_CURSOR_INFO` 对象，用于记录光标信息。
 

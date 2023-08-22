@@ -154,18 +154,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">// 不应该这么写（因为未实现对应构造函数）：</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>Music bad<span class="op">(</span>path<span class="op">,</span> name<span class="op">);</span></span></code></pre></div>
 <p>Music 类结构如下：</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>函数</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  见下</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>成员</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> name</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  Mci 音乐别名。</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> path</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  音频文件路径。</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> vol</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  音频播放时的音量，默认为 <span class="dv">10000</span>，使用 volume<span class="op">()</span> 方法设置音量为 vol。</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="op">-</span> doRepeat</span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  指定是否循环播放，设置后要调用 play<span class="op">(...)</span> 方法乃有效。</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>注：不含该在上述内容的成员，如 isPause，不应该更改，只可读取。</span></code></pre></div>
+<pre><code>函数
+  见下
+成员
+- name
+  Mci 音乐别名。
+- path
+  音频文件路径。
+- vol
+  音频播放时的音量，默认为 10000，使用 volume() 方法设置音量为 vol。
+- doRepeat
+  指定是否循环播放，设置后要调用 play(...) 方法乃有效。
+注：不含该在上述内容的成员，如 isPause，不应该更改，只可读取。</code></pre>
 <h3 id="musicload-方法">Music::load() 方法</h3>
 <p>初始化 path 与 name 后，调用 load() 方法以加载音频文件。</p>
 <p><strong>参数：</strong>无。</p>
