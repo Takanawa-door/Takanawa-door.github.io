@@ -1,9 +1,11 @@
 ---
 title: 本市最大的动物园 The Frontrooms Wiki（不是）
+tag:
+    
 ---
 
 **标签：**层级 | 生存难度 5 | 精神危害 | 隐秘层级 | crossover
-**标签：**已归档页面 | 博客文章 | Crossover
+**标签：**已归档页面 | 博客文章 | Crossover | 待删除
 
 ---
 
@@ -31,7 +33,7 @@ title: 本市最大的动物园 The Frontrooms Wiki（不是）
 **生存难度：等级 1**<br>
 》相对安全<br>
 》稳定<br>
-》极少量实体<br>
+》极少量实体
 
 ## 入口与出口
 

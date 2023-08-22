@@ -32,4 +32,3 @@ title: 鬼畜大陆冒险记
 **非官方发行版（代码有改动）：**<br>
 [MS-Windows 64 位](/downloads/gcdl-win64.exe)；[MS-DOS 16位](/downloads/gcdl-dos722-16.exe)。
 
-
