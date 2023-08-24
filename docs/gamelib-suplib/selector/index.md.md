@@ -20,15 +20,15 @@ const size_t GameLib::selector(const std::vector<std::string>& options,
 
 # 参数
 
-**options** 指定用户可以选择的项目。
+**`options`** 指定用户可以选择的项目。
 
-**hOut** 指向当前活动缓冲区的句柄，通常是 `GetStdHandle(STD_OUTPUT_HANDLE)` 的值。
+**`hOut`** 指向当前活动缓冲区的句柄，通常是 `GetStdHandle(STD_OUTPUT_HANDLE)` 的值。
 
-**csbi** 一个 `CONSOLE_SCREEN_BUFFER_INFOEX` 对象，在调用本函数前应当初始化：`csbi.cbSize = sizeof csbi`。
+**`csbi`** 是一个 `CONSOLE_SCREEN_BUFFER_INFOEX` 对象，在调用本函数前应当初始化：`csbi.cbSize = sizeof csbi`。
 
-**cci** 一个 `CONSOLE_CURSOR_INFO` 对象，用于记录光标信息。
+**`cci`** 是一个 `CONSOLE_CURSOR_INFO` 对象，用于记录光标信息。
 
-**split** 指定每一个选项之间分割的字符，推荐的选项有 `\n` 和 `\t`。
+**`split`** 指定每一个选项之间分割的字符，推荐的选项有 `\n` 和 `\t`。
 
 # 示例
 

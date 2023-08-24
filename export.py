@@ -30,7 +30,7 @@ def export():
         # 文件名长度
         if len(item) <= 6: continue
         # 是否为 md 文件
-        if (item[-3:] != ".md"): continue
+        if (item[-6:] != ".md.md"): continue
 
         output = item[:-6] + ".html"
 
@@ -42,8 +42,9 @@ def export():
             css = f"/css/{cssList[item]}"
 
         # pandoc -f markdown -t html index.md.md -o o.html -c "css.css" --toc -s
-        os.system(f"pandoc -f markdown -t html -o {output} -c {css} --self-contained --toc {item} >nul 2>nul")
-        print(f"Converted {item} ===> {output}. (css = {css})")
+        cmd = f"pandoc -f markdown -t html -o {output} -c {css} --self-contained --toc --template ./.pandoc/template.html5 {item} >nul 2>nul"
+        os.system(cmd)
+        print(f"Converted {item} ===> {output} with command:\n  {cmd}")
 
 if __name__ == "__main__":
     dirAll(os.curdir)

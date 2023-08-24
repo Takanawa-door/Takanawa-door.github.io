@@ -20,4 +20,4 @@ title: 博客中心页
 # 草稿箱
 
 - 《[鬼畜大陆攻略](./gcdl-strategy)》
-- 《[本市最大的动物园](./the-biggest-zoo-in-the-city)》
+<!--- 《[本市最大的动物园](./the-biggest-zoo-in-the-city)》-->

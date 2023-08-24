@@ -94,6 +94,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 <header id="title-block-header">
 <h1 class="title">GameLib::selector 文档</h1>
 </header>
+<p><strong>索引：</strong><a href="javascript:history.back()">返回</a> | <a href="javascript:history.forward()">继续</a> | <a href="/">~</a> | <a href="..">上一级页面</a>。</p>
 <nav id="TOC" role="doc-toc">
 <ul>
 <li><a href="#声明与功能" id="toc-声明与功能">声明与功能</a></li>
@@ -112,15 +113,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
 键来选择选项，通过回车来选定。默认选中项永远是
 <code>options[0]</code>。</p>
 <h1 id="参数">参数</h1>
-<p><strong>options</strong> 指定用户可以选择的项目。</p>
-<p><strong>hOut</strong> 指向当前活动缓冲区的句柄，通常是
+<p><strong><code>options</code></strong> 指定用户可以选择的项目。</p>
+<p><strong><code>hOut</code></strong> 指向当前活动缓冲区的句柄，通常是
 <code>GetStdHandle(STD_OUTPUT_HANDLE)</code> 的值。</p>
-<p><strong>csbi</strong> 一个 <code>CONSOLE_SCREEN_BUFFER_INFOEX</code>
+<p><strong><code>csbi</code></strong> 是一个
+<code>CONSOLE_SCREEN_BUFFER_INFOEX</code>
 对象，在调用本函数前应当初始化：<code>csbi.cbSize = sizeof csbi</code>。</p>
-<p><strong>cci</strong> 一个 <code>CONSOLE_CURSOR_INFO</code>
-对象，用于记录光标信息。</p>
-<p><strong>split</strong> 指定每一个选项之间分割的字符，推荐的选项有
-<code>\n</code> 和 <code>\t</code>。</p>
+<p><strong><code>cci</code></strong> 是一个
+<code>CONSOLE_CURSOR_INFO</code> 对象，用于记录光标信息。</p>
+<p><strong><code>split</code></strong>
+指定每一个选项之间分割的字符，推荐的选项有 <code>\n</code> 和
+<code>\t</code>。</p>
 <h1 id="示例">示例</h1>
 <div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">// 本文件将会使用 GameLib::selector 来获取用户输入选项。 </span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="pp">#include </span><span class="im">&lt;iostream&gt;</span></span>

@@ -33,7 +33,7 @@ make # 或者 mingw32-make
 | CMakeLists.txt
 ```
 
-其中，CMakeLists.txt 内容如下所示：
+其中，`CMakeLists.txt` 内容如下所示：
 
 ```cmake
 cmake_minimum_required (VERSION 3.20)
@@ -75,4 +75,4 @@ int main()
 
 运行效果如图所示：
 
-![](./pic/index-1.png)
+![](../pic/index-1.png)

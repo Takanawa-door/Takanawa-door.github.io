@@ -424,6 +424,12 @@ table td {
     }
 }
 
+/* 数学字体 */
+.math {
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times,
+        'Times New Roman', 华文中宋, serif;
+}
+
 /* Also, toc */
 #TOC li {
     list-style: none;
