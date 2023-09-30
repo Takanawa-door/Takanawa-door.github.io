@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://takanawa-door.github.io/</loc>
-         <lastmod>2023-09-17</lastmod>
+         <lastmod>2023-09-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://takanawa-door.github.io/docs/windowsapi/textattr/</loc>
+         <lastmod>2023-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://takanawa-door.github.io/doubleway/2023-ask-ans/</loc>
-         <lastmod>2023-09-17</lastmod>
+         <lastmod>2023-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://takanawa-door.github.io/doubleway/about/</loc>
-         <lastmod>2023-09-17</lastmod>
+         <lastmod>2023-09-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://takanawa-door.github.io/doubleway/all-ask-ans/</loc>
+         <lastmod>2023-09-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://takanawa-door.github.io/softwares/chatgqt/</loc>
+         <lastmod>2023-09-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
